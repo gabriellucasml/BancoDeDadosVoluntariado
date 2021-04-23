@@ -32,11 +32,11 @@ create table voluntario(
 );
 
 create table integracao(
-    cpf varchar(14),
+    IDVoluntario varchar(14),
     IDacao int,
     turno varchar(10),
-    CONSTRAINT pk_integracao PRIMARY KEY(cpf, IDacao),
-    CONSTRAINT fk_cpf FOREIGN KEY(cpf) REFERENCES voluntario,
+    CONSTRAINT pk_integracao PRIMARY KEY(IDVoluntario, IDacao),
+    CONSTRAINT fk_idvoluntario FOREIGN KEY(IDVoluntario) REFERENCES voluntario,
     CONSTRAINT fk_idacao FOREIGN KEY(IDacao) REFERENCES acoes
 );
 
