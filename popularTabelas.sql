@@ -68,17 +68,17 @@ INSERT INTO voluntario VALUES(
 );
 
 INSERT INTO integracao VALUES(
-    '123.456.789-00',
+    1,
     1,
     'Matutino'
 );
 INSERT INTO integracao VALUES(
-    '321.852.475-55',
+    2,
     2,
     'Noturno'
 );
 INSERT INTO integracao VALUES(
-    '465.203.458-97',
+    3,
     3,
     'Vespertino'
 );
