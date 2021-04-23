@@ -15,3 +15,8 @@ select * from turnos;
 select * from experiencias;
 
 select * from telefones;
+
+select * from acoes where area = 'Antropologia';
+
+select voluntario.nome, voluntario.cpf, experiencias.experiencia from voluntario INNER JOIN experiencias on voluntario.IDVoluntario=experiencias.IDVoluntario;
+

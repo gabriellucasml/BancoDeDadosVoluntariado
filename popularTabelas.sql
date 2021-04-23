@@ -5,7 +5,7 @@ INSERT INTO acoes VALUES(
     'ação promovendo a saúde para as pessoas que não tem acesso', 
     500, 
     'Experiência na área da saúde é interessante, mas não necessária', 
-    'Saúde',
+    'Saúde da família',
     '15:00:00', 
     '2021-09-15', 
     '2022-01-31'
@@ -17,7 +17,7 @@ INSERT INTO acoes VALUES(
     'ação para promover a luta contra a fome',
     350,
     'Sem experiência prévia necessária',
-    'social',
+    'Antropologia',
     '08:00:00',
     '2009-12-25',
     '2029-12-25'
@@ -29,7 +29,7 @@ INSERT INTO acoes VALUES(
     'ação para promover o acesso aos direitos básicos às pessoas que tem direito',
     500,
     'Experiência com direito e serviço social é integral',
-    'direito',
+    'Direito da criança e do adolescente',
     '20:00:00',
     '2021-01-01',
     '2025-01-01'
