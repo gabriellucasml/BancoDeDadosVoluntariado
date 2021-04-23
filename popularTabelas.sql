@@ -5,6 +5,7 @@ INSERT INTO acoes VALUES(
     'ação promovendo a saúde para as pessoas que não tem acesso', 
     500, 
     'Experiência na área da saúde é interessante, mas não necessária', 
+    'Saúde',
     '15:00:00', 
     '2021-09-15', 
     '2022-01-31'
@@ -16,6 +17,7 @@ INSERT INTO acoes VALUES(
     'ação para promover a luta contra a fome',
     350,
     'Sem experiência prévia necessária',
+    'social',
     '08:00:00',
     '2009-12-25',
     '2029-12-25'
@@ -27,6 +29,7 @@ INSERT INTO acoes VALUES(
     'ação para promover o acesso aos direitos básicos às pessoas que tem direito',
     500,
     'Experiência com direito e serviço social é integral',
+    'direito',
     '20:00:00',
     '2021-01-01',
     '2025-01-01'
@@ -67,95 +70,95 @@ INSERT INTO voluntario VALUES(
 INSERT INTO integracao VALUES(
     '123.456.789-00',
     1,
-    'Matutino',
+    'Matutino'
 );
 INSERT INTO integracao VALUES(
     '321.852.475-55',
     2,
-    'Noturno',
+    'Noturno'
 );
 INSERT INTO integracao VALUES(
     '465.203.458-97',
     3,
-    'Vespertino',
+    'Vespertino'
 );
 
 INSERT INTO habilidades VALUES(
     1,
     1,
-    'Primeiros socorros',
+    'Primeiros socorros'
 );
 INSERT INTO habilidades VALUES(
     2,
     2,
-    'Informática',
+    'Informática'
 );
 INSERT INTO habilidades VALUES(
     3,
     3,
-    'Fotografia',
+    'Fotografia'
 );
 
 INSERT INTO areas VALUES(
     1,
     1,
-    'Saúde da família',
+    'Saúde da família'
 );
 INSERT INTO areas VALUES(
     2,
     2,
-    'Antropologia',
+    'Antropologia'
 );
 INSERT INTO areas VALUES(
     3,
     3,
-    'Direito da criança e do adolescente',
+    'Direito da criança e do adolescente'
 );
 
 INSERT INTO turnos VALUES(
     1,
     1,
-    'Matutino',
+    'Matutino'
 );
 INSERT INTO turnos VALUES(
     2,
     2,
-    'Noturno',
+    'Noturno'
 );
 INSERT INTO turnos VALUES(
     3,
     3,
-    'Vespertino',
+    'Vespertino'
 );
 
 INSERT INTO experiencias VALUES(
     1,
     1,
-    'Cinco anos de atendimento no Hospital Universitário',
+    'Cinco anos de atendimento no Hospital Universitário'
 );
 INSERT INTO experiencias VALUES(
     2,
     2,
-    'Dez anos de pesquisa de campo sobre pobreza e fome no Brasil',
+    'Dez anos de pesquisa de campo sobre pobreza e fome no Brasil'
 );
 INSERT INTO experiencias VALUES(
     3,
     3,
-    'Cinco anos advogando na vara da infância',
+    'Cinco anos advogando na vara da infância'
 );
 
 INSERT INTO telefones VALUES(
     1,
     1,
-    '+55 (11) 97854-2034',
+    '+55 (11) 97854-2034'
 );
 INSERT INTO telefones VALUES(
     2,
     2,
-    '+55 (34) 98452-6548',
+    '+55 (34) 98452-6548'
 );
 INSERT INTO telefones VALUES(
     3,
     3,
-    '+55 (84) 99655-8745',
+    '+55 (84) 99655-8745'
 ); 

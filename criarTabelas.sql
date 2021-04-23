@@ -21,13 +21,14 @@ create table instuicoes(
 
 create table voluntario(
     IDVoluntario int,
-    UNIQUE cpf varchar(14),
+    cpf varchar(14),
     idade int,
     nome varchar(20),
     sobrenome varchar(20),
     email varchar(30),
     formacao varchar(30),
-    CONSTRAINT pk_voluntario PRIMARY KEY(id)
+    CONSTRAINT pk_voluntario PRIMARY KEY(IDVoluntario),
+    unique (cpf)
 );
 
 create table integracao(
