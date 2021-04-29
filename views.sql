@@ -19,3 +19,5 @@ INSERT INTO integracao VALUES(
 
 --select * from acaoIntegralizada;
 
+select * from voluntario where voluntario.IDVoluntario in (select IDVoluntario from integracao where IDacao in (select IDacao from acoes where nomeAcao='Fim da fome') );
+
