@@ -32,7 +32,7 @@ create table voluntario(
 );
 
 create table integracao(
-    IDVoluntario varchar(14),
+    IDVoluntario int,
     IDacao int,
     turno varchar(10),
     CONSTRAINT pk_integracao PRIMARY KEY(IDVoluntario, IDacao),
