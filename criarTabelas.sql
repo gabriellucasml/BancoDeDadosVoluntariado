@@ -1,6 +1,6 @@
 create table acoes(
     IDacao int,
-    InstituicaoResponsavel int,
+    CNPJ int,
     nomeAcao varchar(20),
     descricao varchar(500),
     numVagas int,
@@ -10,10 +10,10 @@ create table acoes(
     inicioAcao date,
     fimAcao date,
     CONSTRAINT pk_acoes PRIMARY KEY(IDacao),
-    CONSTRAINT fk_instituicaoResponavel FOREIGN KEY(InstituicaoResponsavel) REFERENCES instuicoes
+    CONSTRAINT fk_instituicaoResponavel FOREIGN KEY(CNPJ) REFERENCES instuicoes
 );
 
-create table instuicoes(
+create table instituicoes(
     CNPJ int,
     nome varchar(20),
     CONSTRAINT pk_cnpj PRIMARY KEY(CNPJ)
