@@ -27,7 +27,7 @@ INSERT INTO acoes VALUES(
     420,
     'Direito para todos',
     'ação para promover o acesso aos direitos básicos às pessoas que tem direito',
-    500,
+    200,
     'Experiência com direito e serviço social é integral',
     'Direito da criança e do adolescente',
     '20:00:00',
@@ -35,9 +35,9 @@ INSERT INTO acoes VALUES(
     '2025-01-01'
 );
 
-INSERT INTO instuicoes VALUES(123,'ONG Saúde');
-INSERT INTO instuicoes VALUES(321,'Secretaria de Assistência Social');
-INSERT INTO instuicoes VALUES(420,'Ordem dos Advogados do Brasil');
+INSERT INTO instituicoes VALUES(123,'ONG Saúde');
+INSERT INTO instituicoes VALUES(321,'Secretaria de Assistência Social');
+INSERT INTO instituicoes VALUES(420,'Ordem dos Advogados do Brasil');
 
 INSERT INTO voluntario VALUES(
     1,
